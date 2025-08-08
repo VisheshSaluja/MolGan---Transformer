@@ -55,9 +55,9 @@ if __name__ == "__main__":
 
     # Save datasets
     with open("data/train.pkl", "wb") as f:
-        pickle.dump(train_padded, f)
+        pickle.dump((train_padded, train_padded), f)  # (src, tgt)
     with open("data/val.pkl", "wb") as f:
-        pickle.dump(val_padded, f)
+        pickle.dump((val_padded, val_padded), f)
 
     # Save vocab
     with open("data/vocab.txt", "w") as f:
