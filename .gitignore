@@ -6,3 +6,4 @@ data/gdb9.sdf
 data/gdb9.sdf
 data/smiles.csv
 data/tokenized.pkl
+.DS_Store
