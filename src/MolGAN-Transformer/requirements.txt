@@ -1,5 +1,0 @@
-torch
-rdkit
-numpy
-tqdm
-selfies  # Optional if you want to experiment with SELFIES
